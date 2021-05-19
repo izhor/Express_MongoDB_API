@@ -15,6 +15,11 @@ for using connection to your mongoDB atlas, here some steps i can provide:
 4. select 'Connect your application', then select 'Node.js' for driver, and '3.6 or later' for version
 5. then you'll be given the link to your database, make sure to replace <password> tags with your mongoDB cluster password
 
+for using local db:
+1. use mongodb shell(mongosh) you can download it here: https://www.mongodb.com/try/download/community?tck=docs_server
+you can eiter use .zip, or .msi, but i prefer .zip for comfortability
+2. open cmd, then change directory to where the mongosh is installed, in my case its c:/mongodb/bin
+3. then type 'mongosh', the database will automatically start
  */
 var local_MongoDB_url = 'mongodb://127.0.0.1:27017/'
 
